@@ -1,14 +1,33 @@
-body
-{
+body {
     color: #333;
     text-align: center;
+<<<<<<< HEAD
     font-family: "Courier";
+=======
+    font-family: "Arial";
+>>>>>>> cabecera
     font-size: 19px;
     margin: 0;
     padding: 0;
 }
-#container
-{
+
+#cabecera {
+    background: #33A;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+#container {
     width: 70%;
     padding: 1em;
     text-align: left;
@@ -16,7 +35,10 @@ body
     margin: 0 auto;
 }
 
-#container h1
-{
+#container h1 {
     font-size: 20px;
+}
+
+#post{
+    padding: 1em;
 }
