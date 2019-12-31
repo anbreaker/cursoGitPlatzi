@@ -1,0 +1,33 @@
+APUNTES CURSO GIT-GITHUB: OPERACIONES EN REPOSITORIO LOCAL
+
+Situados en la carpeta donde se guardan los archivos del proyecto:
+
+git init Crea el repositorio del proyecto
+
+git add <archivo> Identifica los archivos para rastrear sus modificaciones
+
+git add . Incluye todos los archivos de la carpeta para rastrear sus modiificaciones
+
+git commit -m “mensaje” Confirma los últimos cambios y los registra en el repositorio
+
+git commit -am “mensaje” Tiene el mismo efecto que git add . y git commit -m en un solo comando
+
+git status Muestra el estado en el que se encuentra el repositorio y los objetos contenidos en él
+
+git log Muestra el histórico de todos los commit realizados
+
+git show Muestra los últimos cambios registrados en el repositorio y cómo afectan a cada uno de los objetos
+
+git diff Permite ver las diferencias entre los objetos que resultaron de dos commit diferentes, mediante sus claves de identificación
+
+git reset Permite restaurar el repositorio al estado resultante de uno de los commit efectuados previamente
+
+Inicialmente, todo el proyecto está registrado en una sección (rama) del repositorio llamada “master”. El último estado y punto de referencia en el repositorio se denomina HEAD
+
+git branch <rama> Se crea una copia desde el último commit efectuado. Si se omite, se obtendrá una lista de todas las ramas existentes, señalando dónde está situado el HEAD
+
+git checkout <rama> Sitúa el foco (HEAD) del repositorio en la rama indicada
+
+git merge <rama> Fusiona el contenido <rama> que se indica sobre el HEAD actual combinando los commit realizados en ambas. El contenido de <rama> no se altera
+
+git branch -d <rama> Elimina una rama cuando ya esté fusionada con otra y no sea necesaria
