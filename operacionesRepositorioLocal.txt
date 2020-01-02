@@ -30,4 +30,4 @@ git checkout <rama> Sitúa el foco (HEAD) del repositorio en la rama indicada
 
 git merge <rama> Fusiona el contenido <rama> que se indica sobre el HEAD actual combinando los commit realizados en ambas. El contenido de <rama> no se altera
 
-git branch -d <rama> Elimina una rama cuando ya esté fusionada con otra y no sea necesaria
+git branch -d <rama> Elimina una rama cuando ya esté fusionada con otra y no sea necesaria.
