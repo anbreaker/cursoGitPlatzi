@@ -109,3 +109,21 @@ git reset --hard HEAD = Elimina los cambios realizados que aún no se hayan hech
 git tag -a Nombre del Tag -m “Mensaje del Tag” Número del Tag = para los Tags
 
 gitk = ver todo de manera más agradable a la vista
+
+git shortlog Muestra todos los commit del equipo
+
+git shortlog -sn = muestra cuantos commit han hecho cada miembros del equipo.
+
+git shortlog -sn --all = muestra cuantos commit han hecho cada miembros del equipo hasta los que han sido eliminado
+
+git shortlog -sn --all --no-merge = muestra cuantos commit han hecho cada miembros quitando los eliminados sin los merges
+
+git blame ARCHIVO = muestra quien hizo cada cosa linea por linea
+
+git COMANDO --help = muestra como funciona el comando.
+
+git blame ARCHIVO -Llinea_inicial,linea_final= muestra quien hizo cada cosa linea por linea indicándole desde que linea ver ejemplo -L35,50
+
+**git branch -r **= se muestran todas las ramas remotas
+
+git branch -a = se muestran todas las ramas tanto locales como remotas
