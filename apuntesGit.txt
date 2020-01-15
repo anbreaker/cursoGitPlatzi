@@ -127,3 +127,5 @@ git blame ARCHIVO -Llinea_inicial,linea_final= muestra quien hizo cada cosa line
 **git branch -r **= se muestran todas las ramas remotas
 
 git branch -a = se muestran todas las ramas tanto locales como remotas
+
+git blame -c "nombreArchivo" = para ver quien hizo que.
